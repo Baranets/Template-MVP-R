@@ -21,7 +21,7 @@ final class ___VARIABLE_productName:identifier___Assembly: I___VARIABLE_productN
     func assemble() -> UIViewController {
         let presenter = ___VARIABLE_productName:identifier___Presenter()
         
-        let controller = I___VARIABLE_productName:identifier___ViewController(presenter: presenter)
+        let controller = ___VARIABLE_productName:identifier___ViewController(presenter: presenter)
         
         presenter.view = controller
         
